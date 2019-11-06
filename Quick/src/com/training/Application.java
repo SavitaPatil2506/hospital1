@@ -10,6 +10,9 @@ public class Application {
 		List<String> nameList=Arrays.asList("Ramesh","Suresh","Mahesh");
 		
 		nameList.forEach(System.out::println);
+		for(String eachItem:nameList) {
+			System.out.println(eachItem);
+		}
 
 	}
 
